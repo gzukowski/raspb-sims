@@ -128,9 +128,3 @@ class GPIO(tk.Tk):
             self.pin_index += 1
             if self.pin_index == 48:
                 self.pin_index = 0
-
-if __name__ == "__main__":
-    app = GPIO()
-    app.mainloop()
-
-    
